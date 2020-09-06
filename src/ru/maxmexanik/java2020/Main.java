@@ -8,6 +8,7 @@ public class Main {
     static int[] Numbers = new int[] {1,2,3,4,5,6,7,8,9};
     static int[] RandomMass = new int[16];
     static int Sum, A;
+    static long TempFack = 1;
     static double GarmSum;
 
 
@@ -67,6 +68,13 @@ public class Main {
         for (int Num: RandomMass) {
             System.out.println(Num);
         }
+        //Пятое задание вычисление факториала от числа
+        for(long H = 1; H <= 16; H++)
+        {
+            TempFack = TempFack * H;
+        }
+        System.out.println(TempFack);
+
     }
 
     public static void BubbleSort(int[] Array) {
