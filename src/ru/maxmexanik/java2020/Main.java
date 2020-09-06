@@ -31,5 +31,12 @@ public class Main {
         while (a < Numbers.length);
         System.out.print("Cумма полученная сумированием в цикле do while: ");
         System.out.println(Sum);
+        //Второе задание, вывод аргументов командной строки на экран в цикле for
+        for(String str : args)
+        {
+            System.out.println(str);
+        }
+
+
     }
 }
