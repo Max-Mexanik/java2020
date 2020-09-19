@@ -19,9 +19,7 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "Shape{" +
-                "name='" + ShapeName + '\'' +
-                '}';
+        return "Shape{name='" + ShapeName + '\'' + '}';
     }
 
     public void printShapeInfo() {
