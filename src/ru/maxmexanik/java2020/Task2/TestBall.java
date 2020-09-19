@@ -10,6 +10,8 @@ public class TestBall
         Ball d5 = new Ball("Розовый");
         Ball d6 = new Ball("Коричневый", 250);
         Ball d7 = new Ball("Пурпурный");
+        Ball d8 = new Ball("Оранжевый", 100);
+        Ball d9 = new Ball("Малиновый");
 
         System.out.println(d1);
         System.out.println(d2);
@@ -18,5 +20,7 @@ public class TestBall
         System.out.println(d5);
         System.out.println(d6);
         System.out.println(d7);
+        System.out.println(d8);
+        System.out.println(d9);
     }
 }
