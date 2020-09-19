@@ -11,7 +11,6 @@ public class Main {
     static long TempFack = 1;
     static double GarmSum;
 
-
     public static void main(String[] args) {
 
         //Первое задание, вывод суммы элементов массива, с помощью цикла
