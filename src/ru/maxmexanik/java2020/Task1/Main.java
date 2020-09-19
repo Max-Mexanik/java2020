@@ -1,9 +1,6 @@
 package ru.maxmexanik.java2020.Task1;
 
 
-import java.lang.reflect.Array;
-import java.util.Random;
-
 public class Main {
     static int[] Numbers = new int[] {1,2,3,4,5,6,7,8,9};
     static int[] RandomMass = new int[16];
