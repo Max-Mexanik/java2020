@@ -1,4 +1,4 @@
-package ru.maxmexanik.java2020;
+package ru.maxmexanik.java2020.Task1;
 
 
 import java.lang.reflect.Array;
