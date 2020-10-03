@@ -29,7 +29,7 @@ public class Test {
         System.out.println(rectangle1.GetColor());
         System.out.println(rectangle1.GetLength());
 
-        Shape shape4 = new Square(2.8);
+        Shape shape4 = new Square(2.7);
         System.out.println(shape4);
         System.out.println(shape4.GetArea());
         System.out.println(shape4.GetColor());

@@ -2,7 +2,7 @@ package ru.maxmexanik.java2020.Task5;
 
 public class Circle extends Shape{
     protected double Radius = 0.;
-    protected static final double PI = 3.1415926;
+    protected static final double PI = 3.141592;
 
     Circle(){}
 

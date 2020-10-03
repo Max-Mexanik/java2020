@@ -4,7 +4,7 @@ public abstract class Shape {
     protected String Color;
     protected boolean Filled;
 
-    Shape() {}
+    Shape() { }
 
     Shape(String Color, boolean Filled){
         this.Color = Color;

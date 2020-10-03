@@ -8,18 +8,18 @@ public class Square extends Rect {
     }
 
     @Override
-    public void SetWidth(double side){
-        SetSide(side);
+    public void SetWidth(double Side){
+        SetSide(Side);
     }
 
     @Override
-    public void SetLength(double side){
-        SetSide(side);
+    public void SetLength(double Side){
+        SetSide(Side);
     }
 
-    public void SetSide(double side){
-        this.Width = side;
-        this.Length = side;
+    public void SetSide(double Side){
+        this.Width = Side;
+        this.Length = Side;
     }
 
     public double GetSide(){
