@@ -22,16 +22,17 @@ public class Rect extends Shape {
         return Width;
     }
 
-    public void SetWidth(double width) {
-        this.Width = width;
+    public void SetWidth(double Width) {
+        this.Width = Width;
     }
 
     public double GetLength() {
         return Length;
     }
 
-    public void SetLength(double length) {
-        this.Length = length;
+    public void SetLength(double Length) {
+        this.Length = Length;
+
     }
 
     @Override
